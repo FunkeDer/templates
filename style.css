@@ -1,0 +1,154 @@
+*{
+    font-family: 'Secular One', sans-serif;
+}
+
+body {
+    background-color: rgb(228, 218, 218);
+    height: 100vh;  
+    margin: 0px;
+    overflow: hidden;
+  }
+
+.container{
+    position: absolute;
+    width: 150vw;
+    height: 150vh;
+}
+
+.text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 45%;
+    left: 45%;
+    z-index: -1;
+}
+
+.text{
+    text-align: center;
+}
+
+.template>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.template{
+    transition: 0.5s;
+}
+
+.template:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.template:hover>img{
+    opacity: 1;
+    transition: 0.3s;
+    transform: scale(1.01);
+}
+
+.template:nth-child(1){
+    height: 22%;
+    width: 16%;
+    background: rgb(187, 14, 8);
+    position: absolute;
+    top: 5%;
+    left: 0;
+   border-radius: 5px;
+}
+
+.template:nth-child(2){
+    height: 20%;
+    width: 7%;
+    background: #a19191;
+    top: 82%;
+    left: 2%;
+    position: absolute;
+   border-radius: 5px;
+}
+
+.template:nth-child(3){
+    height: 23%;
+    width: 30%;
+    background: #242210;
+    top: 50%;
+    left: 63%;
+    position: absolute;
+   border-radius: 5px;
+}
+
+.template:nth-child(4){
+    height: 15%;
+    width: 12.67%;
+    background: #faf9e9;
+    top: 2%;
+    left: 45%;
+    position: absolute;
+   border-radius: 5px;
+}
+
+.template:nth-child(5){
+    height: 22%;
+    width: 19%;
+    background: #091dd1;
+    top: 37.5%;
+    left: 22.4%;
+    position: absolute;
+   border-radius: 5px;
+}
+
+.template:nth-child(6){
+    height: 12%;
+    width: 11%;
+    background: #e99210;
+    top: 89%;
+    left: 47%;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.template:nth-child(7){
+    height: 19%;
+    width: 20%;
+    background: #17acc0;
+    top: 81%;
+    left: 77%;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.template:nth-child(8){
+    height: 22%;
+    width: 10%;
+    background: #23ce56;
+    top: 20%;
+    left: 69%;
+    position: absolute;
+   border-radius: 5px;
+}
+
+.template:nth-child(9){
+    height: 17%;
+    width: 22%;
+    background: #da2ecb;
+    top: 74.3%;
+    left: 10.9999%;
+    position: absolute;
+   border-radius: 5px;
+}
+
+.template:nth-child(10){
+    height: 17%;
+    width: 9%;
+    background: #ebde30;
+    top: 15%;
+    left: 93%;
+    position: absolute;
+   border-radius: 5px;
+}
